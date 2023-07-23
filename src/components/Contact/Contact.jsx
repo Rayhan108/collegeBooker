@@ -2,7 +2,7 @@
 import img from '../../assets/michal-biernat-h0xEUQXzU38-unsplash.jpg'
 const Contact = () => {
     return (
-        <div className='bg-purple-200 mt-10'>
+        <div className=' mt-10'>
    
         <p className="text-5xl font-bold text-center p-5 font-mono text-black mb-5  mt-10">
             Contact Us

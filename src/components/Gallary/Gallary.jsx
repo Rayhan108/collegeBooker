@@ -17,7 +17,7 @@ const Gallary = () => {
       className="space-y-10 mb-10 p-10 "
      
     >
-      <h1 className="text-center font-extrabold text-5xl">Gallary</h1>
+      <h1 className="text-center font-extrabold text-5xl"> College Photos</h1>
       <p className="font-5xl font-poppins font-extrabold border-b-8  border-purple-100  mb-10"></p>
       <Swiper
         modules={[Navigation, Pagination, Scrollbar,EffectCoverflow,Autoplay]}
@@ -70,7 +70,7 @@ const Gallary = () => {
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img
+        <img
             style={{ width: "100%" }}
             className=""
             src="https://www.usnews.com/dims4/USNEWS/9ee7419/17177859217/resize/800x540%3E/quality/85/?url=https%3A%2F%2Fmedia.beam.usnews.com%2Fb1%2Ffdcc4d127923253199c5013044c835%2F2019Summer-_Old_Main_Drone-0104.jpg"
