@@ -2,7 +2,7 @@ import logo from '../assets/collegebooker-low-resolution-logo-black-on-transpare
 
 const Footer = () => {
     return (
-        <footer className="footer p-10 bg-base-200 text-base-content">
+        <footer className="footer p-10 bg-primary text-white bg-gradient-to-r from-red-700 to green-900 text-base-content">
         <div>
    <img src={logo} className='w-44' alt="" />
           <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>

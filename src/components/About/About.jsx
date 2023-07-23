@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="bg-purple-200">
+    <div className="bg-primary hover:-hue-rotate-90 bg-gradient-to-r from-red-700 to green-900">
       <h1 className="text-5xl font-bold text-center p-5 font-mono text-black mb-5  mt-10">
         About Us
       </h1>
@@ -11,13 +11,13 @@ const About = () => {
       >
         <div className="text-center md:mt-16 mt-1  md:w-1/3">
           <img
-            className="w-full  max-w-lg mt-10 lg:mt-0"
+            className="w-full ml-20  max-w-lg mt-10 lg:mt-0"
             src="https://media.istockphoto.com/id/675073328/vector/admission-concept-on-keyboard-button-3d-rendering.jpg?s=612x612&w=0&k=20&c=rsDToN9NseYiS5WEw48w6J_Ll4eWafgbeBwgml5Q254="
             alt=""
           />
         </div>
 
-        <div className="flex-[0.75] bg-black-100 p-8 rounded-2xl md:w-1/2 my-5">
+        <div className="flex-[0.75] bg-black-100 ml-20 p-8 rounded-2xl md:w-1/2 my-5">
           <div className="p-3 leading-6 ">
             <p className="text-black  font-serif ">
               At CollegeBooker, we are dedicated to revolutionizing the way

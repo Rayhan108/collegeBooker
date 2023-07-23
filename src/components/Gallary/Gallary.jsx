@@ -12,7 +12,7 @@ import 'swiper/css/autoplay';
 import { EffectCoverflow, Pagination,Navigation,Scrollbar,Autoplay } from 'swiper/modules';
 const Gallary = () => {
   return (
-    <div className="bg-purple-200">
+    <div className="bg-primary hover:-hue-rotate-90 bg-gradient-to-r from-red-700 to green-900">
       <div
       className="space-y-10 mb-10 p-10 "
      

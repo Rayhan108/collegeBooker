@@ -1,7 +1,7 @@
 
 const SearchBar = ({handleSearch,setSearchText}) => {
     return (
-        <div className="mb-5">
+        <div className="mb-5 bg-base-100">
   
 <div className="flex md:justify-center">
 <div>
