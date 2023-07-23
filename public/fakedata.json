@@ -1,0 +1,268 @@
+[
+    {
+        
+    
+            "_id":"1",
+          "image": "https://www.usnews.com/dims4/USNEWS/9ee7419/17177859217/resize/800x540%3E/quality/85/?url=https%3A%2F%2Fmedia.beam.usnews.com%2Fb1%2Ffdcc4d127923253199c5013044c835%2F2019Summer-_Old_Main_Drone-0104.jpg",
+          "name": "SSNIC",
+          "admission_dates":"01/08/23 - 15/08/23",
+          "events": [
+            {
+              "name": "Orientation Day",
+              "date": "August 25, 2023",
+              "location": "College Campus",
+              "description": "Join us for a warm welcome to the college community on Orientation Day!"
+            },
+            {
+              "name": "Annual Cultural Fest",
+              "date": "March 10 - March 12, 2024",
+              "location": "College Auditorium",
+              "description": "Experience the diversity of talent through music, dance, and art during our Cultural Fest."
+            }
+          ],
+          "research_history": {
+            "total_publications": 1200,
+            "top_research_areas": [
+              "Computer Science",
+              "Biotechnology",
+              "Environmental Science"
+            ]
+          },
+          "sports": {
+            "teams": [
+              {
+                "name": "College Football Team",
+                "coach": "John Smith",
+                "home_ground": "College Stadium",
+                "achievements": "2-time champions in regional tournaments"
+              },
+              {
+                "name": "College Basketball Team",
+                "coach": "Sarah Johnson",
+                "home_ground": "College Gymnasium",
+                "achievements": "3-time winners of the intercollegiate league"
+              }
+            ],
+            "facilities": [
+              "Football Stadium",
+              "Basketball Court",
+              "Tennis Courts",
+              "Swimming Pool"
+            ]
+          }
+       
+      },
+      
+    {
+       
+            "_id":"2",
+          "image": "https://static01.nyt.com/images/2020/03/14/upshot/14up-colleges-remote/14up-colleges-remote-videoSixteenByNineJumbo1600.jpg",
+          "name": "DCC",
+          "admission_dates":"01/01/24 - 01/02/24",
+          "events": [
+            {
+              "name": "Orientation Day",
+              "date": "August 25, 2023",
+              "location": "College Campus",
+              "description": "Join us for a warm welcome to the college community on Orientation Day!"
+            },
+            {
+              "name": "Annual Cultural Fest",
+              "date": "March 10 - March 12, 2024",
+              "location": "College Auditorium",
+              "description": "Experience the diversity of talent through music, dance, and art during our Cultural Fest."
+            }
+          ],
+          "research_history": {
+            "total_publications": 1200,
+            "top_research_areas": [
+              "Computer Science",
+              "Biotechnology",
+              "Environmental Science"
+            ]
+          },
+          "sports": {
+            "teams": [
+              {
+                "name": "College Football Team",
+                "coach": "John Smith",
+                "home_ground": "College Stadium",
+                "achievements": "2-time champions in regional tournaments"
+              },
+              {
+                "name": "College Basketball Team",
+                "coach": "Sarah Johnson",
+                "home_ground": "College Gymnasium",
+                "achievements": "3-time winners of the intercollegiate league"
+              }
+            ],
+            "facilities": [
+              "Football Stadium",
+              "Basketball Court",
+              "Tennis Courts",
+              "Swimming Pool"
+            ]
+          }
+      
+      },
+      
+    {
+       
+            "_id":"3",
+          "image": "https://www.thoughtco.com/thmb/PCVPjqDcfiY4az_kycvn-EJA-e8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/swarthmore-college-Eric-Behrens-flickr-5706ffe35f9b581408d48cb3.jpg",
+          "name": "NDC",
+          "admission_dates":"01/01/24 - 01/02/24",
+          "events": [
+            {
+              "name": "Orientation Day",
+              "date": "August 25, 2023",
+              "location": "College Campus",
+              "description": "Join us for a warm welcome to the college community on Orientation Day!"
+            },
+            {
+              "name": "Annual Cultural Fest",
+              "date": "March 10 - March 12, 2024",
+              "location": "College Auditorium",
+              "description": "Experience the diversity of talent through music, dance, and art during our Cultural Fest."
+            }
+          ],
+          "research_history": {
+            "total_publications": 1200,
+            "top_research_areas": [
+              "Computer Science",
+              "Biotechnology",
+              "Environmental Science"
+            ]
+          },
+          "sports": {
+            "teams": [
+              {
+                "name": "College Football Team",
+                "coach": "John Smith",
+                "home_ground": "College Stadium",
+                "achievements": "2-time champions in regional tournaments"
+              },
+              {
+                "name": "College Basketball Team",
+                "coach": "Sarah Johnson",
+                "home_ground": "College Gymnasium",
+                "achievements": "3-time winners of the intercollegiate league"
+              }
+            ],
+            "facilities": [
+              "Football Stadium",
+              "Basketball Court",
+              "Tennis Courts",
+              "Swimming Pool"
+            ]
+          }
+       
+      },
+      
+    {
+        
+            "_id":"4",
+          "image": "https://www.universitymagazine.ca/wp-content/uploads/2020/10/California-University-of-Pennsylvania.jpg",
+          "name": "DC",
+          "admission_dates":"01/01/24 - 10/01/23",
+          "events": [
+            {
+              "name": "Orientation Day",
+              "date": "August 25, 2023",
+              "location": "College Campus",
+              "description": "Join us for a warm welcome to the college community on Orientation Day!"
+            },
+            {
+              "name": "Annual Cultural Fest",
+              "date": "March 10 - March 12, 2024",
+              "location": "College Auditorium",
+              "description": "Experience the diversity of talent through music, dance, and art during our Cultural Fest."
+            }
+          ],
+          "research_history": {
+            "total_publications": 1200,
+            "top_research_areas": [
+              "Computer Science",
+              "Biotechnology",
+              "Environmental Science"
+            ]
+          },
+          "sports": {
+            "teams": [
+              {
+                "name": "College Football Team",
+                "coach": "John Smith",
+                "home_ground": "College Stadium",
+                "achievements": "2-time champions in regional tournaments"
+              },
+              {
+                "name": "College Basketball Team",
+                "coach": "Sarah Johnson",
+                "home_ground": "College Gymnasium",
+                "achievements": "3-time winners of the intercollegiate league"
+              }
+            ],
+            "facilities": [
+              "Football Stadium",
+              "Basketball Court",
+              "Tennis Courts",
+              "Swimming Pool"
+            ]
+          }
+       
+      },
+      
+    {
+       
+            "_id":"5",
+          "image": "https://www.usnews.com/dims4/USNEWS/9ee7419/17177859217/resize/800x540%3E/quality/85/?url=https%3A%2F%2Fmedia.beam.usnews.com%2Fb1%2Ffdcc4d127923253199c5013044c835%2F2019Summer-_Old_Main_Drone-0104.jpg",
+          "name": "AMC",
+          "admission_dates":"01/02/24 - 10/02/24",
+          "events": [
+            {
+              "name": "Orientation Day",
+              "date": "August 25, 2023",
+              "location": "College Campus",
+              "description": "Join us for a warm welcome to the college community on Orientation Day!"
+            },
+            {
+              "name": "Annual Cultural Fest",
+              "date": "March 10 - March 12, 2024",
+              "location": "College Auditorium",
+              "description": "Experience the diversity of talent through music, dance, and art during our Cultural Fest."
+            }
+          ],
+          "research_history": {
+            "total_publications": 1200,
+            "top_research_areas": [
+              "Computer Science",
+              "Biotechnology",
+              "Environmental Science"
+            ]
+          },
+          "sports": {
+            "teams": [
+              {
+                "name": "College Football Team",
+                "coach": "John Smith",
+                "home_ground": "College Stadium",
+                "achievements": "2-time champions in regional tournaments"
+              },
+              {
+                "name": "College Basketball Team",
+                "coach": "Sarah Johnson",
+                "home_ground": "College Gymnasium",
+                "achievements": "3-time winners of the intercollegiate league"
+              }
+            ],
+            "facilities": [
+              "Football Stadium",
+              "Basketball Court",
+              "Tennis Courts",
+              "Swimming Pool"
+            ]
+          }
+        
+      }
+      
+]
