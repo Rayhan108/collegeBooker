@@ -2,9 +2,10 @@
     {
         
     
-            "_id":"1",
+         
           "image": "https://www.usnews.com/dims4/USNEWS/9ee7419/17177859217/resize/800x540%3E/quality/85/?url=https%3A%2F%2Fmedia.beam.usnews.com%2Fb1%2Ffdcc4d127923253199c5013044c835%2F2019Summer-_Old_Main_Drone-0104.jpg",
           "name": "SSNIC",
+          "fullName": "Shohed sayed nazrul islam college",
           "admission_dates":"01/08/23 - 15/08/23",
           "events": [
             {
@@ -43,21 +44,24 @@
                 "achievements": "3-time winners of the intercollegiate league"
               }
             ],
-            "facilities": [
-              "Football Stadium",
-              "Basketball Court",
-              "Tennis Courts",
-              "Swimming Pool"
-            ]
+            "admission_procedure": [
+                "Visit the college's official website or contact the admissions office to explore the available academic programs and their respective admission requirements. Gather information about application deadlines, prerequisites,  ",
+                "Submit Application Form: Complete the college's online or offline application form. Provide accurate personal information, academic history, and any requested documents, such as transcripts, test scores, letters of recommendation, and a statement of purpose (if required).",
+                "Application Review: The college's admissions committee will review the submitted applications. They evaluate academic achievements, extracurricular activities, essays, and other relevant factors to assess applicants' suitability for the programs.",
+                "Entrance Examinations or Interviews (if applicable): Depending on the college and program, applicants may need to take entrance examinations or participate in interviews to demonstrate their knowledge, skills, and motivation for the chosen field of study.",
+                "Acceptance and Enrollment: After the application review process, successful applicants will receive acceptance letters. Once admitted, students typically need to confirm their acceptance by paying an enrollment deposit. They will then receive information about orientation, course registration, and other important details to begin their college journey."
+             
+              ]
           }
        
       },
       
     {
        
-            "_id":"2",
+        
           "image": "https://static01.nyt.com/images/2020/03/14/upshot/14up-colleges-remote/14up-colleges-remote-videoSixteenByNineJumbo1600.jpg",
           "name": "DCC",
+          "fullName": "Dhaka City College",
           "admission_dates":"01/01/24 - 01/02/24",
           "events": [
             {
@@ -96,21 +100,24 @@
                 "achievements": "3-time winners of the intercollegiate league"
               }
             ],
-            "facilities": [
-              "Football Stadium",
-              "Basketball Court",
-              "Tennis Courts",
-              "Swimming Pool"
-            ]
+            "admission_procedure": [
+                "Visit the college's official website or contact the admissions office to explore the available academic programs and their respective admission requirements. Gather information about application deadlines, prerequisites,  ",
+                "Submit Application Form: Complete the college's online or offline application form. Provide accurate personal information, academic history, and any requested documents, such as transcripts, test scores, letters of recommendation, and a statement of purpose (if required).",
+                "Application Review: The college's admissions committee will review the submitted applications. They evaluate academic achievements, extracurricular activities, essays, and other relevant factors to assess applicants' suitability for the programs.",
+                "Entrance Examinations or Interviews (if applicable): Depending on the college and program, applicants may need to take entrance examinations or participate in interviews to demonstrate their knowledge, skills, and motivation for the chosen field of study.",
+                "Acceptance and Enrollment: After the application review process, successful applicants will receive acceptance letters. Once admitted, students typically need to confirm their acceptance by paying an enrollment deposit. They will then receive information about orientation, course registration, and other important details to begin their college journey."
+             
+              ]
           }
       
       },
       
     {
        
-            "_id":"3",
+        
           "image": "https://www.thoughtco.com/thmb/PCVPjqDcfiY4az_kycvn-EJA-e8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/swarthmore-college-Eric-Behrens-flickr-5706ffe35f9b581408d48cb3.jpg",
           "name": "NDC",
+          "fullName": "Notre Dam college",
           "admission_dates":"01/01/24 - 01/02/24",
           "events": [
             {
@@ -149,21 +156,24 @@
                 "achievements": "3-time winners of the intercollegiate league"
               }
             ],
-            "facilities": [
-              "Football Stadium",
-              "Basketball Court",
-              "Tennis Courts",
-              "Swimming Pool"
-            ]
+            "admission_procedure": [
+                "Visit the college's official website or contact the admissions office to explore the available academic programs and their respective admission requirements. Gather information about application deadlines, prerequisites,  ",
+                "Submit Application Form: Complete the college's online or offline application form. Provide accurate personal information, academic history, and any requested documents, such as transcripts, test scores, letters of recommendation, and a statement of purpose (if required).",
+                "Application Review: The college's admissions committee will review the submitted applications. They evaluate academic achievements, extracurricular activities, essays, and other relevant factors to assess applicants' suitability for the programs.",
+                "Entrance Examinations or Interviews (if applicable): Depending on the college and program, applicants may need to take entrance examinations or participate in interviews to demonstrate their knowledge, skills, and motivation for the chosen field of study.",
+                "Acceptance and Enrollment: After the application review process, successful applicants will receive acceptance letters. Once admitted, students typically need to confirm their acceptance by paying an enrollment deposit. They will then receive information about orientation, course registration, and other important details to begin their college journey."
+             
+              ]
           }
        
       },
       
     {
         
-            "_id":"4",
+         
           "image": "https://www.universitymagazine.ca/wp-content/uploads/2020/10/California-University-of-Pennsylvania.jpg",
           "name": "DC",
+          "fullName": "Dhaka college",
           "admission_dates":"01/01/24 - 10/01/23",
           "events": [
             {
@@ -202,21 +212,24 @@
                 "achievements": "3-time winners of the intercollegiate league"
               }
             ],
-            "facilities": [
-              "Football Stadium",
-              "Basketball Court",
-              "Tennis Courts",
-              "Swimming Pool"
-            ]
+            "admission_procedure": [
+                "Visit the college's official website or contact the admissions office to explore the available academic programs and their respective admission requirements. Gather information about application deadlines, prerequisites,  ",
+                "Submit Application Form: Complete the college's online or offline application form. Provide accurate personal information, academic history, and any requested documents, such as transcripts, test scores, letters of recommendation, and a statement of purpose (if required).",
+                "Application Review: The college's admissions committee will review the submitted applications. They evaluate academic achievements, extracurricular activities, essays, and other relevant factors to assess applicants' suitability for the programs.",
+                "Entrance Examinations or Interviews (if applicable): Depending on the college and program, applicants may need to take entrance examinations or participate in interviews to demonstrate their knowledge, skills, and motivation for the chosen field of study.",
+                "Acceptance and Enrollment: After the application review process, successful applicants will receive acceptance letters. Once admitted, students typically need to confirm their acceptance by paying an enrollment deposit. They will then receive information about orientation, course registration, and other important details to begin their college journey."
+             
+              ]
           }
        
       },
       
     {
        
-            "_id":"5",
+        
           "image": "https://www.usnews.com/dims4/USNEWS/9ee7419/17177859217/resize/800x540%3E/quality/85/?url=https%3A%2F%2Fmedia.beam.usnews.com%2Fb1%2Ffdcc4d127923253199c5013044c835%2F2019Summer-_Old_Main_Drone-0104.jpg",
           "name": "AMC",
+          "fullName": "Anondo Mohon college",
           "admission_dates":"01/02/24 - 10/02/24",
           "events": [
             {
@@ -255,12 +268,14 @@
                 "achievements": "3-time winners of the intercollegiate league"
               }
             ],
-            "facilities": [
-              "Football Stadium",
-              "Basketball Court",
-              "Tennis Courts",
-              "Swimming Pool"
-            ]
+            "admission_procedure": [
+                "Visit the college's official website or contact the admissions office to explore the available academic programs and their respective admission requirements. Gather information about application deadlines, prerequisites,  ",
+                "Submit Application Form: Complete the college's online or offline application form. Provide accurate personal information, academic history, and any requested documents, such as transcripts, test scores, letters of recommendation, and a statement of purpose (if required).",
+                "Application Review: The college's admissions committee will review the submitted applications. They evaluate academic achievements, extracurricular activities, essays, and other relevant factors to assess applicants' suitability for the programs.",
+                "Entrance Examinations or Interviews (if applicable): Depending on the college and program, applicants may need to take entrance examinations or participate in interviews to demonstrate their knowledge, skills, and motivation for the chosen field of study.",
+                "Acceptance and Enrollment: After the application review process, successful applicants will receive acceptance letters. Once admitted, students typically need to confirm their acceptance by paying an enrollment deposit. They will then receive information about orientation, course registration, and other important details to begin their college journey."
+             
+              ]
           }
         
       }
