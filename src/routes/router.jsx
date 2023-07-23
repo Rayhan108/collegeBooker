@@ -32,6 +32,10 @@ const router = createBrowserRouter([
             path:"/admissionForm/:id",
             element:<AdmissionForm/>
         },
+        {
+            path:"/myCollege",
+            element:<AdmissionForm/>
+        },
       ]
     },
   ]);
