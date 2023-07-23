@@ -1,11 +1,18 @@
+
+import About from "../../../components/About/About";
+import Contact from "../../../components/Contact/Contact";
+import Gallary from "../../../components/Gallary/Gallary";
 import Header from "../../../components/Header/Header";
 
 
 const Home = () => {
     return (
         <div>
-           <h3 className="text-bold text-center">This is home</h3>
+         
            <Header/>
+           <Gallary/>
+         <About/>
+         <Contact/>
         </div>
     );
 };

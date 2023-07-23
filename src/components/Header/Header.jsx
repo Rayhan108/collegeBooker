@@ -6,7 +6,7 @@ const Header = () => {
                 <header className="relative bg-cover bg-center h-20 md:h- xl:h-96">
 
       <img src={img} alt="" className='absolute h-[350px] w-full '/>
-      <div className="flex flex-col justify-center items-center h-full text-white relative    lg:top-30">
+      <div className="flex flex-col justify-center items-center h-full text-white relative sm:top-30   md:top-30">
         <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold mb-4 text-center">
           CollegeBooker
         </h1>
