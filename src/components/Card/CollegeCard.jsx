@@ -5,7 +5,7 @@ import Card from "./Card";
 const CollegeCard = () => {
     const [collegeData,setCollegeData] = useState([])
     useEffect(()=>{
-        fetch('../../../public/fakedata.json')
+        fetch('http://localhost:5000/allColleges')
         .then(res=>res.json())
         .then(data=>setCollegeData(data))
     },[])
