@@ -1,14 +1,8 @@
-import { useEffect, useState } from "react";
 import Card from "./Card";
 
 
-const CollegeCard = () => {
-    const [collegeData,setCollegeData] = useState([])
-    useEffect(()=>{
-        fetch('http://localhost:5000/allColleges')
-        .then(res=>res.json())
-        .then(data=>setCollegeData(data))
-    },[])
+const CollegeCard = ({collegeData}) => {
+  
     return (
     <>
     

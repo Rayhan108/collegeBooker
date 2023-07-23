@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Card = ({d}) => {
-    console.log(d);
+
     const {image,_id,name,admission_dates,events,research_history,sports}=d;
     return (
         <div className="card w-96 bg-base-100 shadow-xl">
