@@ -38,11 +38,21 @@ const Navbar = () => {
           {user? <button onClick={handleLogOut} className="">LogOut</button>
          : <Link to="/login" className="">Login</Link>}
           </li> 
-          <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+        <Link to="/dashboard">
+        <div className='flex items-center justify-center '>
+        <div>
+            <p className='mb-3 mr-2'>{user?.displayName}</p>
+          </div>
+          <div tabIndex={0} className="btn btn-ghost btn-circle avatar">
+          
         <div className="w-10  rounded-full">
           <img src={user?.photoURL} className='' />
         </div>
-      </label>
+        </div>
+        
+      </div>
+        </Link>
+      
         </>
       );
 

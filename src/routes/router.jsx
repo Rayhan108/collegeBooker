@@ -11,6 +11,9 @@ import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import Login from "../Pages/Login/Login";
 import Registration from "../Pages/Registration/Registration";
 import PrivetRoute from "./PrivetRoute";
+import UserDashboard from "../layout/userDashBoard";
+import Profile from "../Pages/Profile/Profile";
+
 
 
 
@@ -58,6 +61,16 @@ const router = createBrowserRouter([
         },
       ]
     },
+    {
+        path: "dashboard",
+        element: <PrivetRoute><UserDashboard></UserDashboard></PrivetRoute>,
+        children: [
+          {
+            path: "/dashboard",
+            element: <Profile></Profile>,
+          },
+        ]
+    }
   ]);
 
 export default router;
