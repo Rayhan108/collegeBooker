@@ -9,7 +9,7 @@ const Details = () => {
     const [loader,setLoader]=useState(true)
       const [data, setData] = useState();
       useEffect(() => {
-        fetch(`http://localhost:5000/colleges/${id}`)
+        fetch(`https://college-booker-server.vercel.app/colleges/${id}`)
           .then((res) => res.json())
           .then((data) => {
             setData(data);

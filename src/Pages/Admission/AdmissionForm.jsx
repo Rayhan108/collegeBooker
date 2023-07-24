@@ -16,7 +16,7 @@ const AdmissionForm = () => {
 
   const onSubmit = (data) => {
     const newApply = { ...data, collegeId: id };
-    fetch("http://localhost:5000/applyColleges", {
+    fetch("https://college-booker-server.vercel.app/applyColleges", {
       method: "POST",
       headers: {
         "content-type": "application/json",

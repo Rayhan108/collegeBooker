@@ -10,14 +10,14 @@ const UpdateForm = ({d,id}) => {
     const from = location.state?.from?.pathname || "/dashboard";
     const onSubmit = data => {
      
-      fetch(`http://localhost:5000/update/${id}`, {
+      fetch(`https://college-booker-server.vercel.app/update/${id}`, {
           method: "PATCH",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(data),
         })
           .then((res) => res.json())
           .then((data) => {
-          console.log(data);
+        
               if(data.modifiedCount>0){
                 navigate(from, { replace: true })
                   Swal.fire({
@@ -29,7 +29,7 @@ const UpdateForm = ({d,id}) => {
            
       });
 
-          console.log(data);
+          
     }
     return (
         <div className=" min-h-screen bg-base-200">

@@ -15,7 +15,7 @@ const DisplayReviews = () => {
   const [data, setdata] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/allColleges")
+    fetch("https://college-booker-server.vercel.app/allColleges")
       .then((res) => res.json())
       .then((data) => setdata(data));
   }, []);

@@ -8,7 +8,7 @@ const Profile = () => {
     // console.log(user);
     const [data,setData]=useState([])
     useEffect(()=>{
-        fetch(`http://localhost:5000/allAppliedColleges?email=${user?.email}`)
+        fetch(`https://college-booker-server.vercel.app/allAppliedColleges?email=${user?.email}`)
         .then(res=>res.json())
         .then(data=>setData(data))
     },[user?.email])
@@ -24,7 +24,7 @@ const Profile = () => {
           
         </div>
         {
-            data?.map((d,i)=><ProfileContent key={i} d={d}></ProfileContent>)
+            data?.map((d,i)=><ProfileContent key={i} d={d}></ProfileContent>).slice(0,1)
         }
        </div>
     );

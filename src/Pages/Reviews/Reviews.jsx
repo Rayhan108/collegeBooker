@@ -17,7 +17,7 @@ const Reviews = () => {
       const onSubmit = (data) => {
         // console.log(data);
     
-        fetch(`http://localhost:5000/reviews/${id}`, {
+        fetch(`https://college-booker-server.vercel.app/reviews/${id}`, {
           method: "PATCH",
           headers: {
             "content-type": "application/json",
