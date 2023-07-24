@@ -7,12 +7,14 @@ import CollegeList from "../Pages/Admission/CollegeList";
 import AdmissionForm from "../Pages/Admission/AdmissionForm";
 import MyColleges from "../Pages/MyColleges/MyColleges";
 import Reviews from "../Pages/Reviews/Reviews";
+import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 
 
 const router = createBrowserRouter([
     {
       path: "/",
       element: <Main></Main>,
+      errorElement: <ErrorPage></ErrorPage>,
       children:[
         {
             path:"/",
