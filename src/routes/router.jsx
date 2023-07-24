@@ -8,6 +8,8 @@ import AdmissionForm from "../Pages/Admission/AdmissionForm";
 import MyColleges from "../Pages/MyColleges/MyColleges";
 import Reviews from "../Pages/Reviews/Reviews";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
+import Login from "../Pages/Login/Login";
+import Registration from "../Pages/Registration/Registration";
 
 
 const router = createBrowserRouter([
@@ -43,6 +45,14 @@ const router = createBrowserRouter([
         {
             path:"/reviews/:id",
             element:<Reviews/>
+        },
+        {
+            path:"/login",
+            element:<Login/>
+        },
+        {
+            path:"/register",
+            element:<Registration/>
         },
       ]
     },

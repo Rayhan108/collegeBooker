@@ -1,9 +1,25 @@
  import { Link } from 'react-router-dom';
 import logo from'../assets/collegebooker-low-resolution-logo-black-on-transparent-background.png'
+import { AuthContext } from '../Provider/AuthProvider';
+import { useContext } from 'react';
+import Swal from 'sweetalert2';
 
 const Navbar = () => {
-
-
+  const { user, logout } = useContext(AuthContext);
+  const handleLogOut = () => {
+    logout()
+      .then(()=>{
+        Swal.fire({
+          title: 'success!',
+          text: 'Logout Succesfull',
+          icon: 'success',
+          confirmButtonText: 'Ok'
+        })
+      })
+      .catch((error) => {
+        console.log(error.message);
+      });
+  };
     const navRoutes = (
         <>
           <li>
@@ -19,11 +35,12 @@ const Navbar = () => {
             <Link to="/myCollege" className=" font-bold">My College</Link>
           </li> 
           <li>
-            <Link to="/login" className=" font-bold ">Login</Link>
+          {user? <button onClick={handleLogOut} className="">LogOut</button>
+         : <Link to="/login" className="">Login</Link>}
           </li> 
           <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
         <div className="w-10  rounded-full">
-          <img src='https://expertphotography.b-cdn.net/wp-content/uploads/2022/03/Male-Poses-Walking.jpg' className='' />
+          <img src={user?.photoURL} className='' />
         </div>
       </label>
         </>
