@@ -1,14 +1,16 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import CollegesTable from "./CollegesTable";
+import { AuthContext } from "../../Provider/AuthProvider";
 
 
 const MyColleges = () => {
+  const {user}=useContext(AuthContext)
     const [data,setData]=useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/allAppliedColleges')
+        fetch(`http://localhost:5000/allAppliedColleges?email=${user?.email}`)
         .then(res=>res.json())
         .then(data=>setData(data))
-    },[])
+    },[user?.email])
     return (
         <div className="mt-5 mb-10 p-5">
 

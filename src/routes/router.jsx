@@ -10,6 +10,8 @@ import Reviews from "../Pages/Reviews/Reviews";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import Login from "../Pages/Login/Login";
 import Registration from "../Pages/Registration/Registration";
+import PrivetRoute from "./PrivetRoute";
+
 
 
 const router = createBrowserRouter([
@@ -24,7 +26,7 @@ const router = createBrowserRouter([
         },
         {
             path:"/details/:id",
-            element:<Details/>
+            element:<PrivetRoute><Details/></PrivetRoute>
         },
         {
             path:"/colleges",
@@ -44,7 +46,7 @@ const router = createBrowserRouter([
         },
         {
             path:"/reviews/:id",
-            element:<Reviews/>
+            element:<PrivetRoute><Reviews/></PrivetRoute>
         },
         {
             path:"/login",

@@ -1,8 +1,11 @@
+import { useContext } from "react";
 import { Controller, useForm } from "react-hook-form";
 import { useParams } from "react-router-dom";
 import Swal from "sweetalert2";
+import { AuthContext } from "../../Provider/AuthProvider";
 
 const AdmissionForm = () => {
+  const {user}=useContext(AuthContext)
   const { id } = useParams();
   const {
     handleSubmit,
@@ -75,7 +78,7 @@ const AdmissionForm = () => {
               <Controller
                 name="email"
                 control={control}
-                defaultValue=""
+                defaultValue={user?.email}
                 rules={{
                   required: "Candidate Email is required",
                   pattern: {
