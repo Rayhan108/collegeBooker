@@ -12,7 +12,7 @@ const Profile = () => {
         .then(res=>res.json())
         .then(data=>setData(data))
     },[user?.email])
-    console.log(data);
+  
     return (
        <div className="stats shadow mt-64 flex justify-center items-center">
          <div className="stat">

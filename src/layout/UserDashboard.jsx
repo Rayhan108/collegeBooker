@@ -20,7 +20,7 @@ const UserDashboard = () => {
           <ul className="menu p-4 w-80 h-full bg-base-200 text-base-content font-bold">
             {/* Sidebar content here */}
       
-            <li><NavLink to="/"><FaUser></FaUser> Profile</NavLink> </li>
+            <li><NavLink to="/dashboard"><FaUser></FaUser> Profile</NavLink> </li>
            
              
               

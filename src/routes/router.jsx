@@ -13,6 +13,7 @@ import Registration from "../Pages/Registration/Registration";
 import PrivetRoute from "./PrivetRoute";
 import UserDashboard from "../layout/userDashBoard";
 import Profile from "../Pages/Profile/Profile";
+import Update from "../Pages/Profile/Update/Update";
 
 
 
@@ -68,6 +69,10 @@ const router = createBrowserRouter([
           {
             path: "/dashboard",
             element: <Profile></Profile>,
+          },
+          {
+            path: "/dashboard/update/:id",
+            element: <Update></Update>,
           },
         ]
     }

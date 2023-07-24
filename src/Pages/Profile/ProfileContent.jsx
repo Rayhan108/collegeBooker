@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { AuthContext } from "../../Provider/AuthProvider"
+import { Link } from "react-router-dom";
 
 const ProfileContent = ({d}) => {
     const {user}=useContext(AuthContext)
@@ -16,23 +17,26 @@ const ProfileContent = ({d}) => {
           <div className="stat-value">86%</div>
           <div className="stat-title">Payment done</div>
           <div className="stat-desc text-secondary">
+            <Link to={`/dashboard/update/${d?._id}`}>
             <button className="btn btn-sm mt-3">Edit Profile</button>
+            </Link>
+            
           </div>
         </div>
 
         <div className="stat">
-        <div className="stat-figure text-secondary">
+        <div className="stat-figure text-secondary mt-3">
             <div className="avatar online">
               <div className="w-16 rounded-full">
                 <img src={user?.photoURL} />
               </div>
             </div>
-            <p>{user?.displayName}</p>
+            <p>{d?.name}</p>
           </div>
           <div className="stat-title">Contact Info</div>
           <p className=" ">Email:{user?.email}</p>
           <p className=" ">Phone:{d?.candidatePhone}</p>
-          <p className="stat-desc">Address:{d?.address}</p>
+          <p className="">Address:{d?.address}</p>
         </div>
         
      
