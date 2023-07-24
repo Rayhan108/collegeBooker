@@ -2,13 +2,13 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const CollegeList = () => {
-    const [data,setdata] = useState([])
+  const [data,setdata] = useState([])
     
-    useEffect(()=>{
-        fetch('http://localhost:5000/allColleges')
-        .then(res=>res.json())
-        .then(data=>setdata(data))
-    },[])
+  useEffect(()=>{
+      fetch('http://localhost:5000/allColleges')
+      .then(res=>res.json())
+      .then(data=>setdata(data))
+  },[])
     return (
         <div>
                <h1 className="text-5xl font-bold text-center p-5 font-mono text-black mb-5  mt-10">
